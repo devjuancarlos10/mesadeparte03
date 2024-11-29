@@ -16,6 +16,7 @@ class CreateUsuariosTable extends Migration
             $table->string('contrasenia');
             $table->timestamp('fechaNacimiento')->nullable();
             $table->string('foto')->nullable();
+            $table->string('genero')->nullable(); // Campo para el género del usuario
             $table->foreignId('rol')->constrained('roles', 'idRol');
             $table->timestamps();
         });
@@ -26,4 +27,3 @@ class CreateUsuariosTable extends Migration
         Schema::dropIfExists('usuarios');
     }
 }
-
