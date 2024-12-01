@@ -1,6 +1,6 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="http://mesadepartes-uncp-production.up.railway.app/css/header.css?v=1">
-<link rel="stylesheet" href="http://mesadepartes-uncp-production.up.railway.app/css/variable.css?v=1">
+<link rel="stylesheet" href="{{ secure_asset('css/header.css') }}?v=1">
+<link rel="stylesheet" href="{{ secure_asset('css/variable.css') }}?v=1">
 <header class="header">
     <!-- Sección izquierda -->
     <div class="header__list left">
