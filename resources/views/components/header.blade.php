@@ -1,6 +1,6 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="{{ asset('css/header.css') }}">
-<link rel="stylesheet" href="{{ asset('css/variable.css') }}">
+<link rel="stylesheet" href="{{ asset('css/header.css?v=1') }}">
+<link rel="stylesheet" href="{{ asset('css/variable.css?v=1') }}">
 <header class="header">
     <!-- Sección izquierda -->
     <div class="header__list left">
