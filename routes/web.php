@@ -2,10 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-<<<<<<< Updated upstream
-Route::get('/', function () {
-    return view('welcome');
-=======
 // Ruta de inicio (home)
 Route::get('/', function () {
     return view('welcome');
@@ -22,5 +18,4 @@ Route::get("/secretary", function() {
 
 Route::get("/publicOfficer", function(){
     return view("publicOfficer");
->>>>>>> Stashed changes
 });
