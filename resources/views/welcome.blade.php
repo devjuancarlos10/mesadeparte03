@@ -23,12 +23,5 @@
         <h1>Aplicación: Mesa de partes</h1>
         <h1>Esfuercence pls</h1>
         <h1>Quiero aprobar :3</h1>
-<<<<<<< Updated upstream
-=======
-        <h1>En esta parte ira el login</h1>
-        <h1>/user para usuario</h1>
-        <h1>/publicOfficer para funcionario publico</h1>
-        <h1>/secretary para secretario tanto mesa de partes y dependencia</h1>
->>>>>>> Stashed changes
     </body>
 </html>
