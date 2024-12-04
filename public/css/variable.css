@@ -1,0 +1,56 @@
+:root{
+    /* Colortes */
+    --color-primario-claro: #A0E1BF; /* Para hover o fondos */
+    --color-primario-oscuro: #409B68; /* Para bordes o textos */
+    --color-secundario-claro: #EFEFEF;
+    --color-secundario-oscuro: #B1B1B1;
+    --color-tercero: #A7E3FB;
+    --color-alerta: #E18419;
+    --color-error: #FF0000;
+    --color-por-enviar: #CFEBFA;
+    --color-archivado: #F8FACF;
+    --color-exito: #CFFAD9;
+    --color-fondo: #FFFFFF;
+    --color-texto: #000000;
+
+    /* Bordes */ 
+    --radio-borde: 4px;
+    --radio-borde-grande: 8px;
+    --grosor-borde: 1px;
+    
+    /* Transparencia */
+    --fondo-transparente: rgba(255, 255, 255, 0.8); /* Blanco translúcido */
+    --overlay-negro: rgba(0, 0, 0, 0.5); /* Negro translúcido */
+
+    /* Animaciones */
+    --duracion-animacion-rapida: 0.2s;
+    --duracion-animacion-lenta: 0.5s;
+    --curva-animacion: ease-in-out;
+
+    /*Dimensiones*/
+    --ancho-maximo-contenedor: 1200px;
+    --alto-boton: 40px;
+    --ancho-boton: 120px;
+
+    /* Z index */
+    --z-index-bajo: 10;
+    --z-index-medio: 50;
+    --z-index-alto: 100;
+    --z-index-overlay: 1000;
+
+    /* Tipografía */
+    --fuente-principal: 'Roboto', sans-serif;
+    --tamaño-texto-base: 16px;
+    --tamaño-texto-pequeño: 14px;
+    --tamaño-texto-grande: 20px;
+    --linea-base: 1.5; /* Altura de línea */
+
+    /* Espaciado */
+    --margen-base: 16px;
+    --padding-base: 16px;
+
+    /* Breakpoints */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+}
