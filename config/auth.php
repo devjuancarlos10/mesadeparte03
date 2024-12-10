@@ -62,7 +62,9 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', App\Models\User::class),
+            'model' => env('AUTH_MODEL', App\Models\Usuario::class),
+            'table' => 'usuarios', // Nombre de tu tabla
+            'field' => 'correo', // Campo de correo en lugar de 'email'
         ],
 
         // 'users' => [

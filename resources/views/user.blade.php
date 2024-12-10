@@ -9,6 +9,7 @@
 </head>
 <body>
     <!--Cabecera-->
+    <form action="{{route('logout')}}" method="post"></form>
     <x-header></x-header>
     <!--Menu de la derecha-->
     <div class="menu open" id="menu"> 

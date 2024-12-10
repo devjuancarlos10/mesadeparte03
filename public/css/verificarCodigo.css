@@ -1,0 +1,201 @@
+:root{
+    /* Colortes */
+    --color-primario-claro: #A0E1BF; /* Para hover o fondos */
+    --color-primario-oscuro: #409B68; /* Para bordes o textos */
+    --color-secundario-claro: #EFEFEF;
+    --color-secundario-oscuro: #B1B1B1;
+    --color-tercero: #A7E3FB;
+    --color-alerta: #E18419;
+    --color-error: #FF0000;
+    --color-por-enviar: #CFEBFA;
+    --color-archivado: #F8FACF;
+    --color-exito: #CFFAD9;
+    --color-fondo: #FFFFFF;
+    --color-texto: #000000;
+
+    /* Bordes */ 
+    --radio-borde: 4px;
+    --radio-borde-grande: 8px;
+    --grosor-borde: 1px;
+    
+    /* Transparencia */
+    --fondo-transparente: rgba(255, 255, 255, 0.8); /* Blanco translúcido */
+    --overlay-negro: rgba(0, 0, 0, 0.5); /* Negro translúcido */
+
+    /* Animaciones */
+    --duracion-animacion-rapida: 0.2s;
+    --duracion-animacion-lenta: 0.5s;
+    --curva-animacion: ease-in-out;
+
+    /*Dimensiones*/
+    --ancho-maximo-contenedor: 1200px;
+    --alto-boton: 40px;
+    --ancho-boton: 120px;
+
+    /* Z index */
+    --z-index-bajo: 10;
+    --z-index-medio: 50;
+    --z-index-alto: 100;
+    --z-index-overlay: 1000;
+
+    /* Tipografía */
+    --fuente-principal: 'Roboto', sans-serif;
+    --tamaño-texto-base: 16px;
+    --tamaño-texto-pequeño: 14px;
+    --tamaño-texto-grande: 20px;
+    --linea-base: 1.5; /* Altura de línea */
+
+    /* Espaciado */
+    --margen-base: 16px;
+    --padding-base: 16px;
+
+    /* Breakpoints */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: var(--color-primario-claro);
+    display: flex;
+    align-items: center;
+}
+
+.logoUncp{
+    width: 60px;
+    margin-left: 1rem;
+}
+
+h1{
+    font-size: var(--tamaño-texto-grande);
+    font-family: var(--fuente-principal);
+    margin-left: 1rem;
+}
+
+.contenedorFormRegistro{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: var(--color-fondo);
+}
+
+.textCorreo{
+    margin: 1rem 0;
+    font-family: var(--fuente-principal);
+    text-align: center;
+}
+
+.formularioCodigo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    padding: 1rem;
+    border-radius: var(--radio-borde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-secundario-claro);
+    font-family: var(--fuente-principal);
+}
+
+.tituloCrearCuenta{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: var(--tamaño-texto-grande);
+    font-family: var(--fuente-principal);
+}
+
+hr{
+    border: 1px solid #000;
+    margin: 1rem 0;
+    width: 100px;
+}
+
+.inputCorreo{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: var(--radio-borde);
+    border: 1px solid #000;
+    font-size: var(--tamaño-texto-pequeño);
+}
+
+.contenedorBtnRegistro{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.btnValidar{
+    margin-top: 1rem;
+    width: 120px;
+    height: 40px;
+    background-color: var(--color-primario-oscuro);
+    color: var(--color-primario-claro);
+    border: none;
+    border-radius: 10px;
+    font-size: var(--tamaño-texto-pequeño);
+    cursor: pointer;
+}
+
+.btnValidar-disabled{
+    background-color: var(--color-primario-claro);
+    color: #5c5a5a;
+}
+
+
+
+.box_digit_input{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.digit-input {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.digit-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.hidden {
+    display: none;
+}
+
+.timer {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.btnReenviar {
+    margin-top: 2rem;
+    background-color: var(--color-primario-oscuro);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

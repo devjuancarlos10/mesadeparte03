@@ -23,5 +23,19 @@
         <h1>Aplicación: Mesa de partes</h1>
         <h1>Esfuercence pls</h1>
         <h1>Quiero aprobar :3</h1>
+        <form id="salir" action="{{route('logout')}}" method="post">
+            @csrf
+            <button class="btnSalir" type="submit">Salir</button>
+        </form>
     </body>
+    <style>
+        .btnSalir {
+            background-color: #FF2D20;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </html>
